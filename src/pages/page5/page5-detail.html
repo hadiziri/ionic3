@@ -1,0 +1,16 @@
+
+
+<h2>HEROE DETAIL</h2>
+  <div *ngIf="hero">
+    <ion-card>
+        <ion-card-header>
+            Card Header : {{ hero.id }}
+        </ion-card-header>
+
+        <ion-card-content>
+            Name : {{ hero.name }}
+        </ion-card-content>
+  </ion-card>
+  </div>
+   <button ion-button (click)="gotoHeroes()">Back</button> 
+

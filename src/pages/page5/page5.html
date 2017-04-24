@@ -1,0 +1,67 @@
+
+
+<ion-content #content5 class="pos-relative  has-footer">
+<h1>Welcome To  Page <strong>5</strong></h1>
+<!--
+<ul class="items">
+      <li *ngFor="let hero of heroes | async"
+        [class.selected]="isSelected(hero)"
+        (click)="onSelect(hero)">
+        <span class="badge">{{ hero.id }}</span> {{ hero.name }}
+      </li>
+</ul>
+
+<div *ngFor="let hero of heroes | async">
+<ion-card>
+  <ion-card-header>
+    Card Header : {{ hero.id }}
+  </ion-card-header>
+
+  <ion-card-content (click)="onSelect(hero)">
+    Name : {{ hero.name }}
+  </ion-card-content>
+</ion-card>
+</div>
+-->
+<ion-list *ngFor="let hero of heroes | async">
+  <ion-item (click)="onSelect(hero)">
+    {{ hero.id }} : {{ hero.name }}
+  </ion-item>
+</ion-list>
+
+<h1 *ngIf="selectedId">is selected : {{selectedId}}</h1>
+
+<h2>Line <strong>551</strong></h2>
+<h2>Line <strong>552</strong></h2>
+<h2>Line <strong>3</strong></h2>
+<h2>Line <strong>4</strong></h2>
+<h2>Line <strong>5</strong></h2>
+<h2>Line <strong>6</strong></h2>
+<h2>Line <strong>7</strong></h2>
+<h2>Line <strong>1</strong></h2>
+<h2>Line <strong>2</strong></h2>
+<h2>Line <strong>3</strong></h2>
+<h2>Line <strong>4</strong></h2>
+<h2>Line <strong>5</strong></h2>
+<h2>Line <strong>6</strong></h2>
+<h2>Line <strong>7</strong></h2>
+<h2>Line <strong>1</strong></h2>
+<h2>Line <strong>2</strong></h2>
+<h2>Line <strong>3</strong></h2>
+<h2>Line <strong>4</strong></h2>
+<h2>Line <strong>5</strong></h2>
+<h2>Line <strong>6</strong></h2>
+<h2>Line <strong>7</strong></h2>
+<h2>Line <strong>1</strong></h2>
+<h2>Line <strong>2</strong></h2>
+<h2>Line <strong>3</strong></h2>
+<h2>Line <strong>4</strong></h2>
+<h2>Line <strong>5</strong></h2>
+<h2>Line <strong>6</strong></h2>
+<h2>Line <strong>7</strong></h2>
+<h2>Line <strong>8</strong></h2>
+<h2>Line <strong>9</strong></h2>
+<h2>Line <strong>10</strong></h2>
+<h2>Line <strong>11</strong></h2>
+<h2>Line <strong>5512</strong></h2>
+</ion-content>

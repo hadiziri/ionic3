@@ -1,0 +1,32 @@
+<ion-fab top right >
+   <button ion-fab>Share</button>
+   <ion-fab-list side="top">
+     <button ion-fab>Facebook</button>
+     <button ion-fab>Twitter</button>
+     <button ion-fab>Youtube</button>
+   </ion-fab-list>
+   <ion-fab-list side="left">
+     <button ion-fab>Vimeo</button>
+   </ion-fab-list>
+ </ion-fab>
+
+<h2>HEROE DETAIL WITH ION CARD AND ION FAB COMPONENTS</h2>
+<ion-chip color="danger">
+  <ion-icon name="heart" ></ion-icon>
+  <ion-label color="white">HEROE DETAIL</ion-label>
+</ion-chip>
+  <div *ngIf="hero">
+    <ion-card>
+        <ion-card-header>
+            Card Header : {{ hero.id }}
+        </ion-card-header>
+
+        <ion-card-content>
+            Name : {{ hero.name }}
+        </ion-card-content>
+  </ion-card>
+  <button ion-button color="secondary" (click)="gotoHeroes()">Back</button> 
+
+  </div>
+   
+
